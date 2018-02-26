@@ -9,7 +9,12 @@
   "dependencies": {
     "react": "16.2.0",
     "react-native": "0.53.3",
-    "react-native-ui-kitten": "^3.0.0"
+    "react-native-router-flux": "^4.0.0-beta.28",
+    "react-native-ui-kitten": "^3.0.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "remote-redux-devtools": "^0.5.12"
   },
   "devDependencies": {
     "babel-jest": "22.4.1",
