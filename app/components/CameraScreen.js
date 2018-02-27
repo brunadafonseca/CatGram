@@ -9,7 +9,7 @@ import {
   Image
 } from 'react-native';
 import { RNCamera } from 'react-native-camera';
-
+import Icon from 'react-native-vector-icons/Feather'
 import styles from './CameraScreen.styles'
 
 type Props = {};
@@ -68,7 +68,7 @@ export default class CameraScreen extends Component<Props> {
                     onPress={this.takePicture.bind(this)}
                     style = {styles.capture}
                 >
-                    <Text style={{fontSize: 14}}> MEOW! </Text>
+                    <Icon name="camera" size={30} color="#900" />
                 </TouchableOpacity>
             </View>
             <View style={{flex: 0, flexDirection: 'row', justifyContent: 'center',}}>
