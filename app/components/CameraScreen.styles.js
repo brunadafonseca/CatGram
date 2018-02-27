@@ -21,5 +21,17 @@ export default StyleSheet.create({
         margin: 20,
         position: 'absolute',
         bottom: 10,
+        left: 5,
     },
+    save: {
+        flex: 0,
+        backgroundColor: '#fff',
+        borderRadius: 5,
+        padding: 15,
+        paddingHorizontal: 20,
+        margin: 20,
+        position: 'absolute',
+        bottom: 10,
+        right: 5,
+    }
 });

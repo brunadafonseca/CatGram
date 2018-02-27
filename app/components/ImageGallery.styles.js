@@ -8,7 +8,15 @@ export default StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: RkTheme.current.colors.background.lightGray,
-        justifyContent: 'center',
-        alignItems: 'center'
+    },
+    image: {
+        width: (WIDTH / 3) - 2,
+        height: 120,
+        resizeMode: 'cover',
+        margin: 1,
+    },
+    imageGrid: {
+        flexDirection: 'row',
+        flexWrap: 'wrap'
     }
 });
