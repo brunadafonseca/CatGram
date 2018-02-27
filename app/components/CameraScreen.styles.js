@@ -5,33 +5,28 @@ export default StyleSheet.create({
         flex: 1,
         flexDirection: 'column',
         backgroundColor: 'black',
-        position: 'relative'
     },
     preview: {
         flex: 1,
         justifyContent: 'flex-end',
         alignItems: 'center'
     },
-    capture: {
+    buttons: {
         flex: 0,
-        backgroundColor: '#fff',
-        borderRadius: 5,
-        padding: 15,
-        paddingHorizontal: 20,
-        margin: 20,
-        position: 'absolute',
-        bottom: 10,
-        left: 5,
+        alignSelf: 'center',
+        flexDirection: 'row', 
+        position: 'absolute', 
+        bottom: 0
     },
-    save: {
+    button: {
         flex: 0,
         backgroundColor: '#fff',
-        borderRadius: 5,
+        borderRadius: 35,
+        width: 70,
+        height: 70,
         padding: 15,
-        paddingHorizontal: 20,
+        justifyContent: 'center',
+        alignItems: 'center',
         margin: 20,
-        position: 'absolute',
-        bottom: 10,
-        right: 5,
-    }
+    },
 });

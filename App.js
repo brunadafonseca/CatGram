@@ -6,6 +6,7 @@ import { Router, Scene, Stack } from 'react-native-router-flux';
 import CameraScreen from './app/components/CameraScreen';
 import ImageGallery from './app/components/ImageGallery';
 import Home from './app/screens/Home'
+import EditPicture from './app/components/EditPicture';
 // import styles from './App.styles';
 import {RkTheme} from 'react-native-ui-kitten';
 
@@ -28,6 +29,7 @@ export default class App extends Component {
             <Scene key="homeScreen" component={Home} initial={true} hideNavBar={true}/>
             <Scene key="cameraScreen" component={CameraScreen} hideNavBar={true}/>
             <Scene key="imageGallery" component={ImageGallery} title='Photos' />
+            <Scene key="editPicture" component={EditPicture} title='Edit Photo' />
           </Stack>
         </Router>
     );
